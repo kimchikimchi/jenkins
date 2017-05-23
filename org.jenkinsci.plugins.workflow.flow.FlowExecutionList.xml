@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<list>
+  <flow-owner plugin="workflow-job@2.11">
+    <job>Atmosphere Pipeline</job>
+    <id>2</id>
+  </flow-owner>
+</list>
