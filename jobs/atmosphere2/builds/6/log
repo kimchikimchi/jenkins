@@ -1,0 +1,10 @@
+Started by user [8mha:////4P3/dqwIB1BgsOji5OxQHAmjfAV3mSBQCpQFGaX0Ia47AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZO/dLi1CL9rMRKAK76JUC+AAAA[0mJay Cha
+Building in workspace /var/jenkins_home/workspace/atmosphere2
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/g0t4/jenkins2-course-spring-boot.git
+ > git init /var/jenkins_home/workspace/atmosphere2 # timeout=10
+Fetching upstream changes from https://github.com/g0t4/jenkins2-course-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/g0t4/jenkins2-course-spring-boot.git +refs/heads/*:refs/remotes/origin/*
