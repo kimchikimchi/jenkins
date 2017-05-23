@@ -1,0 +1,46 @@
+Started by user [8mha:////4P3/dqwIB1BgsOji5OxQHAmjfAV3mSBQCpQFGaX0Ia47AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZO/dLi1CL9rMRKAK76JUC+AAAA[0mJay Cha
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/Atmosphere Pipeline
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (checkout)
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://xgithub.com/g0t4/jenkins2-course-spring-boot.git # timeout=10
+Fetching upstream changes from https://xgithub.com/g0t4/jenkins2-course-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://xgithub.com/g0t4/jenkins2-course-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ERROR: Error fetching remote repo 'origin'
+[8mha:////4BuwZ6nmE2hmzTMJUMnRxIQZdvVKJdeeLxRRcrR0kpu6AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.plugins.git.GitException: Failed to fetch from https://xgithub.com/g0t4/jenkins2-course-spring-boot.git
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:809)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1076)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1107)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:109)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:83)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:73)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:260)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: hudson.plugins.git.GitException: Command "git fetch --tags --progress https://xgithub.com/g0t4/jenkins2-course-spring-boot.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: unable to access 'https://xgithub.com/g0t4/jenkins2-course-spring-boot.git/': Failed to connect to xgithub.com port 443: Connection refused
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1877)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1596)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:71)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:348)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:807)
+	... 13 more
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: null
+[8mha:////4BuwZ6nmE2hmzTMJUMnRxIQZdvVKJdeeLxRRcrR0kpu6AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

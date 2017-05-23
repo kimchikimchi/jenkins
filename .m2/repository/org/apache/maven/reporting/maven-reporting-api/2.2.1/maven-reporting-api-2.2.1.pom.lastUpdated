@@ -1,0 +1,9 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue May 23 18:36:56 UTC 2017
+http\://repo.spring.io/milestone/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1495564616479
+http\://repo.spring.io/snapshot/.lastUpdated=1495564616083
+http\://repo.spring.io/release/.lastUpdated=1495564616357
+http\://repo.spring.io/snapshot/.error=
+http\://repo.spring.io/milestone/.lastUpdated=1495564616244
+http\://repo.spring.io/release/.error=

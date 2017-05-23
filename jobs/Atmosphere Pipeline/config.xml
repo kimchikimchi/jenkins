@@ -5,20 +5,29 @@
   <keepDependencies>false</keepDependencies>
   <properties>
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
-      <triggers/>
+      <triggers>
+        <hudson.triggers.SCMTrigger>
+          <spec>* * * * *</spec>
+          <ignorePostCommitHooks>false</ignorePostCommitHooks>
+        </hudson.triggers.SCMTrigger>
+      </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.30">
     <script>node {
-    git &apos;https://github.com/g0t4/jenkins2-course-spring-boot.git&apos;
+    
+    stage(&apos;checkout&apos;) {
+        // some block
+    
+        git &apos;https://github.com/g0t4/jenkins2-course-spring-boot.git&apos;
+    }
     
     def project_path = &apos;spring-boot-samples/spring-boot-sample-atmosphere&apos;
     
     dir(project_path) {
         // some block
-    
-        sh &apos;mvn -f pom.xml clean package&apos;
-        archiveArtifacts &quot;target/*.jar&quot;
+        stage(&apos;compile, testing, package&apos;) { sh &apos;mvn -f pom.xml clean package&apos; }
+        stage(&apos;archival&apos;) { archiveArtifacts &quot;target/*.jar&quot; }
     }
 }</script>
     <sandbox>true</sandbox>

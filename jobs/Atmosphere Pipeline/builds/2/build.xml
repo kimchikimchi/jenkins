@@ -59,7 +59,8 @@
   <queueId>3</queueId>
   <timestamp>1495564230723</timestamp>
   <startTime>1495564230734</startTime>
-  <duration>0</duration>
+  <result>SUCCESS</result>
+  <duration>596775</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
@@ -77,23 +78,9 @@
 }</script>
     <loadedScripts class="map"/>
     <sandbox>true</sandbox>
-    <iota>8</iota>
-    <head>1:8</head>
-    <start>2</start>
+    <iota>14</iota>
+    <head>1:14</head>
   </execution>
-  <logsToCopy class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
-    <unserializable-parents/>
-    <java.util.concurrent.ConcurrentSkipListMap>
-      <default/>
-      <string>3</string>
-      <long>69</long>
-      <string>6</string>
-      <long>109</long>
-      <string>8</string>
-      <long>361198</long>
-      <null/>
-    </java.util.concurrent.ConcurrentSkipListMap>
-  </logsToCopy>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
       <scm class="hudson.plugins.git.GitSCM" plugin="git@3.3.0">
