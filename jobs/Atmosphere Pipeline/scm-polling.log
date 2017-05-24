@@ -1,8 +1,8 @@
-Started on May 23, 2017 8:26:00 PM
+Started on May 24, 2017 4:54:27 PM
 Using strategy: Default
 [poll] Last Built Revision: Revision 4bde91e33e2860b2aab142028c04eff37b7791f2 (refs/remotes/origin/master)
  > git ls-remote -h https://github.com/g0t4/jenkins2-course-spring-boot.git # timeout=10
 Found 7 remote heads on https://github.com/g0t4/jenkins2-course-spring-boot.git
-[poll] Latest remote head revision on refs/heads/master is: 4bde91e33e2860b2aab142028c04eff37b7791f2 - already built by 15
-Done. Took 0.38 sec
+[poll] Latest remote head revision on refs/heads/master is: 4bde91e33e2860b2aab142028c04eff37b7791f2 - already built by 16
+Done. Took 0.41 sec
 No changes

@@ -1,0 +1,56 @@
+Started by user [8mha:////4P3/dqwIB1BgsOji5OxQHAmjfAV3mSBQCpQFGaX0Ia47AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZO/dLi1CL9rMRKAK76JUC+AAAA[0mJay Cha
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/Pet Clinic@2
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (checkout)
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository https://github.com/g0t4/jenkins2-course-spring-petclinic.git
+ > git init /var/jenkins_home/workspace/Pet Clinic@2 # timeout=10
+Fetching upstream changes from https://github.com/g0t4/jenkins2-course-spring-petclinic.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/g0t4/jenkins2-course-spring-petclinic.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/g0t4/jenkins2-course-spring-petclinic.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/g0t4/jenkins2-course-spring-petclinic.git # timeout=10
+Fetching upstream changes from https://github.com/g0t4/jenkins2-course-spring-petclinic.git
+ > git fetch --tags --progress https://github.com/g0t4/jenkins2-course-spring-petclinic.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 12d272fe9391a532e7ce84a160a1fbf2a43d363d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 12d272fe9391a532e7ce84a160a1fbf2a43d363d
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 12d272fe9391a532e7ce84a160a1fbf2a43d363d
+First time build. Skipping changelog.
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Pet Clinic@2/spring-boot-samples/spring-boot-sample-atmosphere
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (compile, testing, package)
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[spring-boot-sample-atmosphere] Running shell script
++ mvn -f pom.xml clean package
+[INFO] Scanning for projects...
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project  (/var/jenkins_home/workspace/Pet Clinic@2/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml) has 1 error
+[ERROR]     Non-readable POM /var/jenkins_home/workspace/Pet Clinic@2/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml: /var/jenkins_home/workspace/Pet Clinic@2/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml (No such file or directory)
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4KVL2a6ZFwdT7hOGkuve3OdDnzxHdBjyi3vuoZJ0QD3hAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+[8mha:////4BuwZ6nmE2hmzTMJUMnRxIQZdvVKJdeeLxRRcrR0kpu6AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE
